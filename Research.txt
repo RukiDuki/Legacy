@@ -1,0 +1,8 @@
+1. General browser game programing tips from reditors: https://www.reddit.com/r/webdev/comments/9pcty5/how_to_build_a_browser_game/
+  1.1 https://phaser.io/why-phaser
+  1.2 What are WebGL and canvas?
+          https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
+        Alternative: https://two.js.org/
+          (I like the feel of this ; I can use it for the documents in the game - https://codepen.io/jonobr1/pen/yLwMOmj)
+          (This is outwordly fun!!!! - https://codepen.io/jonobr1/pen/Nwrdpp)
+      I better use Canvas instead of SVG - https://www.w3schools.com/html/html5_svg.asp ; Whut? - https://www.w3.org/2000/svg 
