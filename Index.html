@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <!-- Source - https://stackoverflow.com/a/21790467
+     Posted by berentrom, modified by community. See post 'Timeline' for change history
+      Retrieved 2026-03-31, License - CC BY-SA 3.0-->
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <title>Test Move Object</title>
+
+    <style>
+      img{
+        position: absolute;
+        left: 15;
+        right: 15;
+        top: 15;
+        bottom: auto;
+        height: 159px;
+        width: 200px;
+      }
+
+      canvas{
+        width: 900px; /*1500px*/
+        height: 600px; /*600px*/
+        background-color: rgb(124, 87, 139);
+      }
+    </style>
+  </head>
+
+  <body bgcolor='#646464'>
+    <canvas id="myCanvas"></canvas>
+
+    <script>
+      const canvas = document.getElementById('myCanvas');
+      const ctx = canvas.getContext('2d');
+
+      // MONEY!!!
+      ctx.beginPath();
+      ctx.moveTo(50, 50);
+      ctx.lineTo(200, 50);
+      ctx.lineTo(200, 100);
+      ctx.lineTo(50,100);
+      ctx.closePath();
+      ctx.strokeStyle = 'black';
+      ctx.lineWidth = 1;
+      ctx.stroke();
+      ctx.fillStyle = 'green';
+      ctx.fill();
+
+      ctx.beginPath();
+      ctx.arc(122, 75, 13, 0, 2 * Math.PI);
+      ctx.fillStyle = 'red';
+      ctx.fill();
+      ctx.strokeStyle = 'yellow';
+      ctx.lineWidth = 1;
+      ctx.stroke();
+   
+    </script>
+  </body>
+</html>
